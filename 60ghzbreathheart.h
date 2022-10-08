@@ -88,7 +88,7 @@ class BreathHeart_60GHz{
         boolean newData = false;
         void SerialInit();
         void recvRadarBytes();
-        void Breath_Heart(byte inf[]);
+        String Breath_Heart(byte inf[]);
         void Situation_judgment(byte inf[]);
         void ShowData(byte inf[]);
 };
